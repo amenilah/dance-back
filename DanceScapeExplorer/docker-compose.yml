@@ -17,7 +17,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    image: omnia28/omnia_5se1-grp4-dancescapeback:latest
+    image: amenilah1/dance-back:latest
     restart: on-failure
     env_file: .env
 
