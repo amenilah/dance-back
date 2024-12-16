@@ -81,7 +81,7 @@
       <command value="mvn jacoco:report " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventServiceImplTest">
+  <component name="RunManager" selected="Spring Boot.DanceScapeExplorerApplication">
     <configuration name="CompetitionServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebanking-backend" />
       <extension name="coverage">
@@ -214,7 +214,7 @@
       <workItem from="1731546078514" duration="1034000" />
       <workItem from="1731547616659" duration="4744000" />
       <workItem from="1731586085627" duration="3337000" />
-      <workItem from="1734354198933" duration="337000" />
+      <workItem from="1734354198933" duration="1033000" />
     </task>
     <servers />
   </component>
