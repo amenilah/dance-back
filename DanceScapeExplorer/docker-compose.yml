@@ -1,0 +1,53 @@
+version: '2'
+
+services:
+  mysqldb:
+    image: mysql:8.0
+    restart: unless-stopped
+    env_file: .env  # Chargement du fichier .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQLDB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQLDB_DATABASE}
+    ports:
+      - "${MYSQLDB_LOCAL_PORT}:${MYSQLDB_DOCKER_PORT}"  # Expose le port MySQL
+    volumes:
+      - db:/var/lib/mysql  # Stockage persistant pour la base de données
+
+
+  app:
+    depends_on:
+      - mysqldb
+    image: omnia28/omnia_5se1-grp4-dancescapeback:latest
+    restart: on-failure
+    env_file: .env
+
+    ports:
+      - "${SPRING_LOCAL_PORT}:${SPRING_DOCKER_PORT}"  # Expose le port Spring Boot
+    environment:
+      SPRING_APPLICATION_JSON: |
+        {
+          "spring.datasource.url": "jdbc:mysql://mysqldb:${MYSQLDB_DOCKER_PORT}/${MYSQLDB_DATABASE}?&createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
+          "spring.datasource.password": "${MYSQLDB_ROOT_PASSWORD}",
+          "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MariaDBDialect",
+          "spring.jpa.hibernate.ddl-auto": "update"
+        }
+    volumes:
+      - .m2:/root/.m2  # Cache Maven
+    stdin_open: true
+    tty: true
+
+  mysqld_exporter:
+    image: prom/mysqld-exporter:v0.14.0  # Version stable spécifique
+    restart: unless-stopped
+    container_name: mysqld_exporter
+    environment:
+      DATA_SOURCE_NAME: "root:${MYSQLDB_ROOT_PASSWORD}@tcp(mysqldb:${MYSQLDB_DOCKER_PORT})/${MYSQLDB_DATABASE}"
+    ports:
+      - "9104:9104"  # Expose le port par défaut de mysqld_exporter pour Prometheus
+    depends_on:
+      - mysqldb
+
+
+volumes:
+  db:
+  .m2:

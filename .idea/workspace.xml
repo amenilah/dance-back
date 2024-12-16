@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b652cfc8-a37d-4453-beca-ecce883d9630" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DanceScapeExplorer/src/main/java/org/sid/ebankingbackend/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/DanceScapeExplorer/src/main/java/org/sid/ebankingbackend/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DanceScapeExplorer/src/test/java/org/sid/ebankingbackend/EventServiceImplMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DanceScapeExplorer/src/test/java/org/sid/ebankingbackend/EventServiceImplMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DanceScapeExplorer/src/test/java/org/sid/ebankingbackend/EventServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DanceScapeExplorer/src/test/java/org/sid/ebankingbackend/EventServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2iA7dn09UEovERU4IAdDoE3sakE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CompetitionServiceImplTest.executor": "Run",
+    "JUnit.CompetitionserviceTest.executor": "Run",
+    "JUnit.EventServiceImplMockTest.executor": "Run",
+    "JUnit.EventServiceImplMockTest.testEventRateWithMockito.executor": "Run",
+    "JUnit.EventServiceImplTest.executor": "Run",
+    "JUnit.EventServiceImplTest.testEventRate.executor": "Run",
+    "Maven.ebanking-backend [clean,verify].executor": "Run",
+    "Maven.ebanking-backend [clean].executor": "Run",
+    "Maven.ebanking-backend [jacoco:report].executor": "Run",
+    "Maven.ebanking-backend [reload].executor": "Run",
+    "Maven.ebanking-backend [test].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.DanceScapeExplorerApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "omnialahdhiri-5se1-G4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PI DEVOPS/5se1-G4-DanceScape",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "bc2ebe59955ccb465943d5f3a2963ea4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn reload" />
+      <command value="mvn clean" />
+      <command value="mvn clean verify " />
+      <command value="mvn jacoco:report " />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EventServiceImplTest">
+    <configuration name="CompetitionServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebanking-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.ebankingbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sid.ebankingbackend" />
+      <option name="MAIN_CLASS_NAME" value="org.sid.ebankingbackend.CompetitionServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompetitionserviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebanking-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.ebankingbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sid.ebankingbackend" />
+      <option name="MAIN_CLASS_NAME" value="org.sid.ebankingbackend.CompetitionserviceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventServiceImplMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebanking-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.ebankingbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sid.ebankingbackend" />
+      <option name="MAIN_CLASS_NAME" value="org.sid.ebankingbackend.EventServiceImplMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebanking-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.ebankingbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sid.ebankingbackend" />
+      <option name="MAIN_CLASS_NAME" value="org.sid.ebankingbackend.EventServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventServiceImplTest.testEventRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebanking-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.ebankingbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sid.ebankingbackend" />
+      <option name="MAIN_CLASS_NAME" value="org.sid.ebankingbackend.EventServiceImplTest" />
+      <option name="METHOD_NAME" value="testEventRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DanceScapeExplorerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ebanking-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.ebankingbackend.DanceScapeExplorerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EventServiceImplTest" />
+        <item itemvalue="JUnit.EventServiceImplMockTest" />
+        <item itemvalue="JUnit.CompetitionServiceImplTest" />
+        <item itemvalue="JUnit.CompetitionserviceTest" />
+        <item itemvalue="JUnit.EventServiceImplTest.testEventRate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b652cfc8-a37d-4453-beca-ecce883d9630" name="Changes" comment="" />
+      <created>1718921618139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718921618139</updated>
+      <workItem from="1718921619636" duration="499000" />
+      <workItem from="1719098164571" duration="316000" />
+      <workItem from="1719272954813" duration="24000" />
+      <workItem from="1728564046243" duration="31000" />
+      <workItem from="1728564095446" duration="11897000" />
+      <workItem from="1728597268517" duration="37000" />
+      <workItem from="1728642522532" duration="2410000" />
+      <workItem from="1730835641280" duration="13000" />
+      <workItem from="1730835668073" duration="709000" />
+      <workItem from="1730836822991" duration="2940000" />
+      <workItem from="1730903397627" duration="2827000" />
+      <workItem from="1731176576434" duration="599000" />
+      <workItem from="1731252372276" duration="2695000" />
+      <workItem from="1731255085368" duration="59000" />
+      <workItem from="1731255149048" duration="9740000" />
+      <workItem from="1731274161771" duration="4554000" />
+      <workItem from="1731335560101" duration="751000" />
+      <workItem from="1731366790543" duration="5244000" />
+      <workItem from="1731434938569" duration="8800000" />
+      <workItem from="1731510001403" duration="6799000" />
+      <workItem from="1731546078514" duration="1034000" />
+      <workItem from="1731547616659" duration="4744000" />
+      <workItem from="1731586085627" duration="3337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
