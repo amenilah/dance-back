@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
-public class WhatsAppService {
+public class WhatsAppService {/*
 
     @Value("${twilio.account.sid}")
     private String accountSid;
@@ -17,8 +17,7 @@ public class WhatsAppService {
     @Value("${twilio.whatsapp.from}")
     private String fromWhatsAppNumber;
 
-    // Utilisez un format international pour le numéro de téléphone avec le code du pays
-    private static final String COUNTRY_CODE = "+216"; // Exemple avec le code de pays pour la Tunisie
+    private static final String COUNTRY_CODE = "+216";
 
     public void sendWhatsAppMessage(String toWhatsAppNumber, String messageBody) {
         Twilio.init(accountSid, authToken);
@@ -26,12 +25,12 @@ public class WhatsAppService {
         //String fullPhoneNumber = COUNTRY_CODE + toWhatsAppNumber;
 
         Message message = Message.creator(
-                new PhoneNumber("whatsapp:" + toWhatsAppNumber),  // Converti en format international
-                new PhoneNumber(fromWhatsAppNumber),  // Votre numéro WhatsApp Twilio
+                new PhoneNumber("whatsapp:" + toWhatsAppNumber),
+                new PhoneNumber(fromWhatsAppNumber),
                 messageBody
         ).create();
 
         System.out.println("Message WhatsApp envoyé. SID: " + message.getSid());
-    }
+    }*/
 }
 

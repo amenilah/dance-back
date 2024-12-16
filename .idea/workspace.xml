@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b652cfc8-a37d-4453-beca-ecce883d9630" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DanceScapeExplorer/src/main/java/org/sid/ebankingbackend/services/Tickets/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/DanceScapeExplorer/src/main/java/org/sid/ebankingbackend/services/Tickets/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DanceScapeExplorer/src/main/java/org/sid/ebankingbackend/services/Whattsapp/WhatsAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/DanceScapeExplorer/src/main/java/org/sid/ebankingbackend/services/Whattsapp/WhatsAppService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DanceScapeExplorer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DanceScapeExplorer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +216,7 @@
       <workItem from="1731546078514" duration="1034000" />
       <workItem from="1731547616659" duration="4744000" />
       <workItem from="1731586085627" duration="3337000" />
-      <workItem from="1734354198933" duration="1033000" />
+      <workItem from="1734354198933" duration="1569000" />
     </task>
     <servers />
   </component>

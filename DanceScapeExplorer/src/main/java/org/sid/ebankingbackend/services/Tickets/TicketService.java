@@ -239,7 +239,7 @@ public class TicketService implements ITicketService {
         String messageBody = "Félicitations ! Voici votre code de réduction : " + discountCode;
 
         // Envoyer le message via WhatsApp
-        whatsAppService.sendWhatsAppMessage(user.getPhoneNumber(), messageBody); // Assurez-vous que User a un numéro de téléphone enregistré
+       // whatsAppService.sendWhatsAppMessage(user.getPhoneNumber(), messageBody); // Assurez-vous que User a un numéro de téléphone enregistré
 
     }
 
